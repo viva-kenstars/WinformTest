@@ -112,9 +112,9 @@ namespace WinformTest
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            string fp = "kenstars";
-            textBox1.Text = fp;
-            MessageBox.Show(fp);
+            string fp = "Viva kenstars";
+            String st = textBox1.Text;
+            MessageBox.Show("Hello" + " " + st + "Welcome");
         }
     }
 }
